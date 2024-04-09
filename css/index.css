@@ -1,215 +1,240 @@
+html,
 body {
-    margin: 0;
-    padding: 0;
-    color: #AB1149;
-    background-color: #E2F395;
+  margin: 0;
+  padding: 0;
+  color: #ab1149;
+  background-color: #e2f395;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
-
+main {
+  flex: 1;
+}
+footer {
+}
 h1,
 h2,
 h3,
 h4 {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 header {
-
-    background-color: #AB1149;
-    color: #E2F395;
-    padding: 10px 20px;
+  background-color: #ab1149;
+  color: #e2f395;
+  padding: 10px 20px;
 }
 
 .logo {
-    flex: 1;
+  flex: 1;
 }
 
 .hed_cont {
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .hed_cont img {
-    width: 200px;
-    height: 75px;
+  width: 200px;
+  height: 75px;
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
 
 nav ul li {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 nav ul li a {
-    color: #E2F395;
-    text-decoration: none;
-    font-size: 32px;
+  color: #e2f395;
+  text-decoration: none;
+  font-size: 32px;
 }
 
 nav ul li a:hover {
-    color: #E2F395;
+  color: #e2f395;
 }
 
 .button {
-    flex: 1;
-    text-align: right;
-
+  flex: 1;
+  text-align: right;
 }
 
 .button button {
-    padding: 15px 30px;
+  padding: 15px 30px;
 
-    background: #AB1149;
-    border: #E2F395 5px solid;
-    color: #E2F395;
-    border-radius: 10px;
-    font-size: 20px;
+  background: #ab1149;
+  border: #e2f395 5px solid;
+  color: #e2f395;
+  border-radius: 10px;
+  font-size: 20px;
 }
 
 .button button:hover {
-    background: #E2F395;
-    border: #E2F395 5px solid;
-    color: #AB1149;
-    border-radius: 10px;
-    cursor: pointer;
+  background: #e2f395;
+  border: #e2f395 5px solid;
+  color: #ab1149;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .container {
-    margin: 0 auto;
-    width: 80%;
+  margin: 0 auto;
+  width: 80%;
 }
 
 .monstr {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .main {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    gap: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 50px;
 }
 
 .main h1 {
-    margin: 0;
+  margin: 0;
 }
 
 .main .span {
-    color: rgb(27, 139, 225);
+  color: rgb(27, 139, 225);
 }
 
 .span2 {
-    color: purple;
-    font-size: 50px;
-    text-transform: uppercase;
+  color: purple;
+  font-size: 50px;
+  text-transform: uppercase;
 }
 
 .shop_card {
-    width: 400px;
-    border: 1px solid #AB1149;
-    border-radius: 40px;
-    padding: 20px 15px;
-    background: #AB1149;
-    color: #E2F395;
+  width: 400px;
+  border: 1px solid #ab1149;
+  border-radius: 40px;
+  padding: 20px 15px;
+  background: #ab1149;
+  color: #e2f395;
 }
 
 .shop_card h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .shop_card p {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 .shop_cont {
-    display: flex;
-    gap: 50px;
+  display: flex;justify-content: center;
+  gap: 50px;
 }
 
 .shop {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 footer {
-    margin-top: 50px;
-    background-color: #AB1149;
-    color: #E2F395;
-    padding: 10px 20px;
+  margin-top: 50px;
+  background-color: #ab1149;
+  color: #e2f395;
+  padding: 10px 20px;
 }
 
 .footer_cont {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .footer_cont img {
-    width: 200px;
-    height: 75px;
+  width: 200px;
+  height: 75px;
 }
-.catalog{
-    margin-top: 50px;
+.catalog {
+  margin-top: 50px;
 }
 .catalog_cont {
-    display: grid;
-    grid-template-columns: repeat(3, 0fr);
-    justify-content: center;
-    gap: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  justify-content: center;
+  gap: 100px;
 }
 
 .catalog_card {
-    width: 300px;
-    text-align: center;
-    padding: 20px;
-    background-color: #AB1149;
-    color: #E2F395;
-    border-radius: 40px;
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  background-color: #ab1149;
+  color: #e2f395;
+  border-radius: 40px;
 }
 
 .price,
 .article {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .price p,
 .article p {
-    margin: 7px;
+  margin: 7px;
 }
 
 .btn {
-    margin-top: 10px;
-    display: flex;
-    gap: 10px;
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .btn button {
-    padding: 5px 15px;
+  padding: 5px 15px;
 
-    background: #AB1149;
-    border: #E2F395 5px solid;
-    color: #E2F395;
-    border-radius: 10px;
-    font-size: 20px;
+  background: #ab1149;
+  border: #e2f395 5px solid;
+  color: #e2f395;
+  border-radius: 10px;
+  font-size: 20px;
 }
 
 .btn button:hover {
-    background: #E2F395;
-    border: #E2F395 5px solid;
-    color: #AB1149;
-    border-radius: 10px;
-    cursor: pointer;
+  background: #e2f395;
+  border: #e2f395 5px solid;
+  color: #ab1149;
+  border-radius: 10px;
+  cursor: pointer;
 }
-.title{
-    text-align: center;
-    font-size: 64px;
-    margin-bottom: 25px;
+.title {
+  text-align: center;
+  font-size: 64px;
+  margin-bottom: 25px;
+}
+
+.about{
+    margin-top: 50px;
+}
+
+.about_cont{
+    padding: 75px;
+    background-color: #ab1149;
+    color: #e2f395;
+    border-radius: 40px;
+}.contact{
+    margin-top: 50px;
+}
+.contact_cont{
+    padding: 50px;
+    background-color: #ab1149;
+    color: #e2f395;
+    border-radius: 40px;
 }
